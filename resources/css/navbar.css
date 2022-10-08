@@ -1,0 +1,14 @@
+.Navbar{
+    background-color: rgb(204, 204, 204);
+}
+.Navbar ul{
+    display: flex;
+    padding: 1rem 8rem;
+    width: 100%;
+}
+.Navbar li{
+    width: 100%;
+    text-align: center;
+    color: rgb(110, 30, 106);
+    list-style: none;
+}

@@ -1,0 +1,13 @@
+.container{
+    margin-top: 2rem;
+}
+.img-coins{
+    width: 30px;
+}
+.coinItem{
+    display:flex;
+}
+.coinItem span{
+    margin-left: 0.95rem;
+    margin-top:0.62rem;
+}

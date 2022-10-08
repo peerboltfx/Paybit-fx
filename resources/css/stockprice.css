@@ -1,0 +1,86 @@
+.container-body{
+    padding: 1rem;
+}
+.Container_available{
+    padding: 0.2rem;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px rgb(58, 58, 58);
+    margin: 0.3rem;
+}
+.Container_available h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-bottom: solid 4px rgb(6, 31, 253);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Container_available ul{
+    display: block;
+}
+.Container_available ul li{
+    border-bottom: 0.7px solid rgb(233, 233, 233);
+    display: flex;
+    padding: 1rem;
+    padding-top: 1.2rem;
+}
+.Container_available ul li div:nth-child(1){
+    width: 500px;
+    display: flex;
+}
+.Container_available ul li img{
+    height: 30px;
+}
+.Container_available ul li p{
+    margin:1rem ;
+    margin-top:0.3rem;
+    color: blueviolet;
+}
+.available_image{
+    box-shadow: 0px 0px 5px black;
+    margin: 0.2rem;
+    width: 98.5%;
+    color: blueviolet;
+}
+.available_image img{
+    width: 100%;
+}
+.available_image div{
+    width: auto;
+    text-align: center;
+    padding: 2rem;
+    
+    border-top: solid rgb(214, 214, 214) 0.7px;
+}
+.creditCard{
+    color: blueviolet;
+}
+.Images-cont{
+    width: 30px;
+}
+.data-container{
+    width:100%;
+    display: block;
+}
+@media (min-width:700px){
+    .Container_available{
+        padding: 0.2rem;
+        box-sizing: border-box;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mother{
+        display: flex;
+    }
+    .data-container{
+        width:100%;
+        display: flex;
+    }
+    
+    .data-container .data{
+        width: 50%;
+        margin: 1rem;
+    }
+}
