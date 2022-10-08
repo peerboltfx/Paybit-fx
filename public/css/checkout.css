@@ -1,0 +1,55 @@
+.status{
+    padding: 2rem;
+    text-align: center;
+    color: rgb(114, 114, 114);
+}
+.container-all{
+    box-shadow: 0px 0px 3px rgb(114, 114, 114) ;
+    border-radius: 1rem;
+    padding:1rem;
+    background: ivory;
+    
+}
+.gold{
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(250, 192, 0);
+   }
+   .Platinum{
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(50, 250, 0);
+   }
+   .silver{
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(134, 134, 134);
+   }
+
+   .pending{
+       background-color: rgb(255, 232, 28);
+       border-radius: 3rem;
+       padding: 0.1rem;
+
+   }
+   .completed{
+    background-color: rgb(28, 255, 47);
+    border-radius: 3rem;
+    padding: 0.1rem;
+
+}
+.h3{
+    padding: 5px;
+}
+   .home{
+       margin-top: 2rem;
+       float: right;
+   }
+   a{
+
+       text-decoration: none;
+   }
+   .attributed-box{
+       padding-top:0.1rem;
+       border-bottom: lightgray solid 0.1px;
+   }
